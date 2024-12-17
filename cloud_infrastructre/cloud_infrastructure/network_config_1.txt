@@ -1,0 +1,9 @@
+Configuring cloud service #1
+---------------------------------
+Service Type: Network
+Cloud Region: us-east-2
+Instance Type: t2.micro
+Security Group: sg-0001
+VPC ID: vpc-0001
+---------------------------------
+Cloud service configuration #1 is ready.

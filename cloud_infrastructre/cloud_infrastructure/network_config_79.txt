@@ -1,0 +1,9 @@
+Configuring cloud service #79
+---------------------------------
+Service Type: Network
+Cloud Region: us-east-5
+Instance Type: t2.micro
+Security Group: sg-0079
+VPC ID: vpc-0079
+---------------------------------
+Cloud service configuration #79 is ready.

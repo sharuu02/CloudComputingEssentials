@@ -1,0 +1,9 @@
+Configuring cloud service #34
+---------------------------------
+Service Type: Instance
+Cloud Region: us-east-5
+Instance Type: t2.micro
+Security Group: sg-0034
+VPC ID: vpc-0034
+---------------------------------
+Cloud service configuration #34 is ready.

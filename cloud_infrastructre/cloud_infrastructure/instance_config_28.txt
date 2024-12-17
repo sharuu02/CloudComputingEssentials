@@ -1,0 +1,9 @@
+Configuring cloud service #28
+---------------------------------
+Service Type: Instance
+Cloud Region: us-east-4
+Instance Type: t2.micro
+Security Group: sg-0028
+VPC ID: vpc-0028
+---------------------------------
+Cloud service configuration #28 is ready.

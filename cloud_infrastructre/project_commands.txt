@@ -1,0 +1,298 @@
+    1  SUDO APT UPDATE
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  getmac -v
+    5  IFCONFIG
+    6  ifconfig
+    7  sudo apt install net-tools
+    8  gcc -version
+    9  sudo apt install gcc
+   10  gcc -version
+   11  gcc --version
+   12  g++ --version
+   13  sudo apt install g++
+   14  g++ -version
+   15  g++ --version
+   16  clear
+   17  gedit sample.c
+   18  ls
+   19  gcc sammple.c
+   20  gcc sample.c
+   21  ./sample
+   22  $ gcc sample.c -o sample
+   23  gcc sample.c -o sample
+   24  ./sample
+   25  gedit swap.c
+   26  ls
+   27  gcc swap.c -o swap
+   28  ./swap
+   29  gedit name.c
+   30  g++ name.c -o name
+   31  ./name
+   32  clear
+   33  javac
+   34  java -version
+   35  sudo apt install openjdk-8-jdk-headless
+   36  sudo apt install openjdk-8-jre-headless
+   37  java -version
+   38  javac -version
+   39  javac
+   40  clear
+   41  gedit HelloWorld.java
+   42  javac HelloWorld.java
+   43  java HelloWorld
+   44  gedit EvenOdd.java
+   45  javac EvenOdd.java
+   46  java EvenOdd
+   47  clear
+   48  gedit HellWorld.java
+   49  javac HelloWorld.java
+   50  java applet HelloWorld
+   51  appletviewer HelloWorld
+   52  sudo apt install openjdk-8-jdk
+   53  javac HelloWorld.java
+   54  appletviewer HelloWorld
+   55  java appletviewer HelloWorld
+   56  appletviewer HelloWorld.java
+   57  clear
+   58  javac HelloWorld.java
+   59  appletviewer HelloWorld
+   60  appletviewer HelloWorld.java
+   61  HelloWorld
+   62  ls
+   63  javac EvenOdd.java
+   64  java EvenOdd
+   65  cd Downloads/
+   66  ls
+   67  javac DigitalClock.java
+   68  appletviewer DigitalClock.java
+   69  clear
+   70  ls
+   71  javac GraphicsDemo.java
+   72  appletviewer GraphicsDemo.java
+   73  javac HelloWorld.java
+   74  appletviewer HelloWorld.java
+   75  javac HelloWorld.java
+   76  java -version
+   77  javac -version
+   78  sudo apt update
+   79  sudo apt install wget
+   80  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   81  $ sudo dpkg -i google-chrome-stable_current_amd64.deb
+   82  pwd
+   83  cd sharuu
+   84  mkdir sharuk
+   85  ls
+   86  cd sharuk
+   87  pwd
+   88  ls
+   89  sudo apt-get update
+   90  sudo apt-get install git
+   91  sudo apt update
+   92  sudo apt-install git
+   93  sudo apt-get install git
+   94  git --v
+   95  git --version
+   96  git
+   97  cd sharuu
+   98  cd sharuk
+   99  cd ..
+  100  pwd
+  101  cd sharuk
+  102  pwd
+  103  touch CloudComputingEssentials.md
+  104  ls
+  105  mv CloudComputingEssentials.md Classnotes.md
+  106  ls
+  107  nano Classnotes.md 
+  108  cat
+  109  mkdir cloud_infrastructre
+  110  ls
+  111  mkdir january
+  112  mkdir february
+  113  mkdir march
+  114  mkdir APRIL
+  115  mkdir may
+  116  mkdir june
+  117  mkdir july
+  118  mkdir august
+  119  mkdir september
+  120  mkdir october
+  121  mkdir november
+  122  mkdir december
+  123  ls
+  124  cd APRIL/
+  125  touch shruu.txt
+  126  cd ..
+  127  cd august
+  128  touch aws.txt
+  129  cd ..
+  130  cd december/
+  131  touch qwqqq.txt
+  132  cd ..
+  133  cdn february/
+  134  cd february/
+  135  touch lol.txt
+  136  cd ..
+  137  cd january/
+  138  touch olll.txt
+  139  cd ..
+  140  cd jul
+  141  cd july
+  142  touch poli.txt
+  143  cd ..
+  144  cd june
+  145  touch nifty.txt
+  146  cd ..
+  147  cd march
+  148  touch paal.txt
+  149  cd ..
+  150  cd may
+  151  touch uuu.txt
+  152  cd ..
+  153  cd november/
+  154  touch ppp.txt
+  155  cd ..
+  156  cd october/
+  157  touch oct.txt
+  158  cd ..
+  159  cd september/
+  160  touch sep.txt
+  161  cd ..
+  162  cd february/
+  163  ls
+  164  mv lol.txt APRIL
+  165  ls
+  166  mv APRIL lol.txt
+  167  ls
+  168  cd ..
+  169  mv ./february/lol.txt ./APRIL
+  170  cd APRIL/
+  171  LS
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd APRIL/
+  176  mv lol.txt updatedlol.txt
+  177  ls
+  178  cd ..
+  179  touch cloud_architechture.txt
+  180  ls
+  181  chmod 700 cloud_architechture.txt 
+  182  ls -l
+  183  touch backup.txt
+  184  mkdir backup
+  185  cp ./backup.txt backup
+  186  ls
+  187  cd backup/
+  188  ls
+  189  cd ..
+  190  rmdir backup.txt
+  191  rm backup.txt
+  192  ls
+  193  rmdir february/
+  194  ls
+  195  #!/bin/bash
+  196  # Create the cloud_infrastructure directory if it doesn't exist
+  197  mkdir -p cloud_infrastructure
+  198  # Loop to create 100 configuration files
+  199  for i in $(seq 1 100); do
+  200      if (( $i % 2 == 0 )); then         config_filename="instance_config_${i}.txt";     else         config_filename="network_config_${i}.txt";     fi
+  201      file_path="cloud_infrastructure/$config_filename"
+  202      echo "Configuring cloud service #$i" > $file_path;     echo "---------------------------------" >> $file_path;     echo "Service Type: $(if (( $i % 2 == 0 )); then echo 'Instance'; else echo 'Network'; fi)" >> $file_path;     echo "Cloud Region: us-east-$(($i % 5 + 1))" >> $file_path;     echo "Instance Type: t2.micro" >> $file_path;     echo "Security Group: sg-$(printf '%04d' $i)" >> $file_path;     echo "VPC ID: vpc-$(printf '%04d' $i)" >> $file_path;     echo "---------------------------------" >> $file_path;     echo "Cloud service configuration #$i is ready." >> $file_path
+  203      echo "Created $file_path"; done
+  204  echo "100 configuration files have been successfully created in 'cloud_infrastructure'."
+  205  chmod +x generate_configs.sh
+  206  Configuring cloud service #1
+  207  ---------------------------------
+  208  Service Type: Network
+  209  Cloud Region: us-east-1
+  210  Instance Type: t2.micro
+  211  Security Group: sg-0001
+  212  VPC ID: vpc-0001
+  213  ---------------------------------
+  214  Cloud service configuration #1 is ready.
+  215  Configuring cloud service #2
+  216  ---------------------------------
+  217  Service Type: Instance
+  218  Cloud Region: us-east-2
+  219  Instance Type: t2.micro
+  220  Security Group: sg-0002
+  221  VPC ID: vpc-0002
+  222  ---------------------------------
+  223  Cloud service configuration #2 is ready.
+  224  ./generate_configs.sh
+  225  ls
+  226  for i in $(seq 1 100); do     if (( $i % 2 == 0 )); then         config_filename="instance_config_${i}.txt";     else         config_filename="network_config_${i}.txt";     fi;     file_path="cloud_infrastructure/$config_filename";     echo "Configuring cloud service #$i" > $file_path;     echo "---------------------------------" >> $file_path;     echo "Service Type: $(if (( $i % 2 == 0 )); then echo 'Instance'; else echo 'Network'; fi)" >> $file_path;     echo "Cloud Region: us-east-$(($i % 5 + 1))" >> $file_path;     echo "Instance Type: t2.micro" >> $file_path;     echo "Security Group: sg-$(printf '%04d' $i)" >> $file_path;     echo "VPC ID: vpc-$(printf '%04d' $i)" >> $file_path;     echo "---------------------------------" >> $file_path;     echo "Cloud service configuration #$i is ready." >> $file_path;     echo "Created $file_path"; done
+  227  ./generate_configs.sh
+  228  chmod +x generate_configs.sh
+  229  chmod +x cloud_infrastructure/*.txt
+  230  ls -l cloud_infrastructure/
+  231  ls
+  232  history
+  233  ping google.com
+  234  ls
+  235  nano cloud_architechture.txt 
+  236  cat cloud_architechture.txt 
+  237  cd ..
+  238  mkdir cloud_admin
+  239  mkdir tech_user
+  240  ls
+  241  chmod 700 cloud_admin tech_user
+  242  ls -l
+  243  cd cloud_infrastructre/
+  244  ls
+  245  cd december/
+  246  ls
+  247  cd ..
+  248  #!/bin/bash
+  249  # Define the directory to scan for files
+  250  target_directory="cloud_infrastructure"
+  251  # Check if the directory exists
+  252  if [ ! -d "$target_directory" ]; then   echo "Directory '$target_directory' does not exist.";   exit 1; fi
+  253  # List all files in the target directory, get their sizes, and sort by size (largest first)
+  254  echo "Listing files in '$target_directory' sorted by size:"
+  255  echo "-----------------------------------------------------"
+  256  du -ah "$target_directory" | sort -rh | less
+  257  #!/bin/bash
+  258  # Define the directory to scan for files
+  259  target_directory="cloud_infrastructure"
+  260  # Check if the directory exists
+  261  if [ ! -d "$target_directory" ]; then   echo "Directory '$target_directory' does not exist.";   exit 1; fi
+  262  # List all files in the target directory, get their sizes, and sort by size (largest first)
+  263  echo "Listing files in '$target_directory' sorted by size:"
+  264  echo "-----------------------------------------------------"
+  265  du -ah "$target_directory" | sort -rh | less
+  266  #!/bin/bash
+  267  # Define the directory to scan for files
+  268  target_directory="cloud_infrastructure"
+  269  # Check if the directory exists
+  270  if [ ! -d "$target_directory" ]; then   echo "Directory '$target_directory' does not exist.";   exit 1; fi
+  271  # List all files in the target directory, get their sizes, and sort by size (largest first)
+  272  echo "Listing files in '$target_directory' sorted by size:"
+  273  echo "-----------------------------------------------------"
+  274  du -ah "$target_directory" | sort -rh | less
+  275  cd cloud_infrastructre/
+  276  ls
+  277  cd cloud_infrastructre/
+  278  ls
+  279  cd APRIL/
+  280  ls
+  281  cd ..
+  282  cd 
+  283  tar -czvf cloud_infrastructure_backup.tar.gz cloud_infrastructure/
+  284  cd cloud_infrastructre/
+  285  tar -czvf cloud_infrastructure_backup.tar.gz cloud_infrastructure/
+  286  zip -r cloud_infrastructure_backup.zip cloud_infrastructure/
+  287  cd ..
+  288  ls
+  289  cd cloud_infrastructre
+  290  ls
+  291  cd ..
+  292  ls
+  293  unzip -l cloud_infrastructure_backup.zip
+  294  cd cloud_infrastructre
+  295  ls
+  296  unzip -l cloud_infrastructure_backup.zip
+  297  history
+  298  history > project_commands.txt

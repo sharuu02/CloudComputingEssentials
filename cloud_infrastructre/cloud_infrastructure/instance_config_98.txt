@@ -1,0 +1,9 @@
+Configuring cloud service #98
+---------------------------------
+Service Type: Instance
+Cloud Region: us-east-4
+Instance Type: t2.micro
+Security Group: sg-0098
+VPC ID: vpc-0098
+---------------------------------
+Cloud service configuration #98 is ready.

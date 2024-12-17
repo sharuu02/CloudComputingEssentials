@@ -1,0 +1,9 @@
+Configuring cloud service #7
+---------------------------------
+Service Type: Network
+Cloud Region: us-east-3
+Instance Type: t2.micro
+Security Group: sg-0007
+VPC ID: vpc-0007
+---------------------------------
+Cloud service configuration #7 is ready.

@@ -1,0 +1,9 @@
+Configuring cloud service #62
+---------------------------------
+Service Type: Instance
+Cloud Region: us-east-3
+Instance Type: t2.micro
+Security Group: sg-0062
+VPC ID: vpc-0062
+---------------------------------
+Cloud service configuration #62 is ready.
